@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  overscroll-behavior: contain;
+}
 canvas {
   position: absolute;
   top: 0px;

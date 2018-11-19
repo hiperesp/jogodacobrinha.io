@@ -91,7 +91,7 @@ var touch = {
 }
 window.addEventListener("touchend", function(e){
 	let key;
-	if(touchOffset.x>touchOffset.y){
+	if(Math.abs(touchOffset.x)>Math.abs(touchOffset.y)){
 		if(touchOffset.x<0){
 			key = LEFT;
 		} else {
