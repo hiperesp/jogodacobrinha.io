@@ -515,7 +515,7 @@ function render(args){
   } else {
     if(map.players.length>0){
       if(typeof map.players[spec]=="undefined"){
-        spec++;
+        specNext();
       }
       currentPlayer = map.players[spec];
       playerHead = map.players[spec].body[0];
